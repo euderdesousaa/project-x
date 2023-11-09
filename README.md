@@ -17,7 +17,7 @@ A documentação da API está disponível através do Swagger. Você pode explor
 
 Se você não quiser clonar o repositório e prefere acessar a API diretamente no Render.com, siga estas etapas:
 
-1. Abra o navegador e acesse https://sua-api-no-render.render.com/swagger-ui.html
+1. Abra o navegador e acesse [https://sua-api-no-render.render.com/swagger-ui.html](https://api-projectx.onrender.com)
 
 A interface Swagger fornecerá informações detalhadas sobre os endpoints disponíveis, os parâmetros necessários e exemplos de solicitações e respostas.
 
@@ -46,7 +46,6 @@ Confira o feed para ver os posts de outros usuários.
 1. Clone este repositório.
    ```bash
    git clone https://github.com/euderdesousaa/project-x
-   cd project-x
    
 2. Navegue até o diretório do projeto.
       ```bash
@@ -56,5 +55,4 @@ Confira o feed para ver os posts de outros usuários.
 
 5. Execute o aplicativo.
    ```bash
-   git clone https://github.com/euderdesousaa/project-x
-   cd project-x
+   docker-compose up
