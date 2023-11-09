@@ -9,7 +9,7 @@ Este projeto é uma rede social estilo Twitter, construída utilizando as seguin
 - **Editar e Deletar:** Capacidade de editar ou excluir posts.
 - **Feed:** Visualize um feed de posts de outros usuários.
 
-- ## Documentação da API
+## Documentação da API
 
 A documentação da API está disponível através do Swagger. Você pode explorar a API localmente ou acessar a versão hospedada no Render.com.
 
