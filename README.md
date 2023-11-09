@@ -1,0 +1,1 @@
+# project-x git init git add README.md git commit -m first commit git branch -M main git remote add origin https://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@github.com/euderdesousaa/project-x.git git push -u origin main
