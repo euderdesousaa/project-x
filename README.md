@@ -17,7 +17,7 @@ A documentação da API está disponível através do Swagger. Você pode explor
 
 Se você não quiser clonar o repositório e prefere acessar a API diretamente no Render.com, siga estas etapas:
 
-1. Abra o navegador e acesse [https://sua-api-no-render.render.com/swagger-ui.html](https://api-projectx.onrender.com)
+1. Abra o navegador e acesse [render](https://api-projectx.onrender.com)
 
 A interface Swagger fornecerá informações detalhadas sobre os endpoints disponíveis, os parâmetros necessários e exemplos de solicitações e respostas.
 
