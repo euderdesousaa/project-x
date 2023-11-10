@@ -10,7 +10,6 @@ spring:
     port: ${SPRING_MAIL_PORT}
     username: ${SPRING_MAIL_USERNAME}
     password: ${SPRING_MAIL_PASSWORD}
-
   security:
     oauth2:
       client:
@@ -18,3 +17,4 @@ spring:
           google:
             clientId: ${GOOGLE_CLIENT_ID}
             clientSecret: ${GOOGLE_CLIENT_SECRET}
+            redirectUri: "{baseUrl}/login/oauth2/code/{registrationId}"
