@@ -17,7 +17,7 @@ spring:
           google:
             client-id: "${CLIENT-ID}"
             client-secret: "${CLIENT-SECRET}"
-            redirectUri: "https://api-projectx.onrender.com/login/oauth2/code/google"
+            redirectUri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope:
               - email
               - profile
