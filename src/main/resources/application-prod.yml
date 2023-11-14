@@ -17,3 +17,6 @@ spring:
           google:
             client-id: "${CLIENT-ID}"
             client-secret: "${CLIENT-SECRET}"
+            scope:
+              - email
+              - profile
