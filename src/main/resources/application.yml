@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           google:
-            clientId: <CLIENT_ID>
-            clientSecret: <CLIENT_ID>
+            client-id: "${CLIENT-ID}"
+            client-secret: "${CLIENT-SECRET}"
             redirectUri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope:
               - email
