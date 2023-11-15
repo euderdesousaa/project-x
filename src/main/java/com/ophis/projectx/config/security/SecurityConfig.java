@@ -44,6 +44,7 @@ public class SecurityConfig {
                 .formLogin(Customizer.withDefaults())
                 .addFilterBefore(filter, UsernamePasswordAuthenticationFilter.class)
                 .oauth2Login(oauth2 -> oauth2
+                        .failureUrl("/login")
                         .defaultSuccessUrl("/swagger-ui.html")
                         .userInfoEndpoint(infoEndpoint ->
                                 infoEndpoint.userService(oauth2UserService)))
