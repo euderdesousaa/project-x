@@ -25,12 +25,10 @@ public class PostDTO {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotNull
     @Size(min = 1, max = 500)
     @Schema(example = "Find your dreams come true. And I wonder if you know")
     private String body;
 
-    @NotNull
     private UserDTO user;
 
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
