@@ -1,58 +1,59 @@
 # Project-X
 
-## Descrição
-Este projeto é uma rede social estilo Twitter, construída utilizando as seguintes tecnologias: Java 17, Spring Boot, MySQL para o armazenamento de dados, RabbitMQ para mensageria assíncrona, Docker para a containerização e OAuth2 para autenticação.
+## Description
+This project is a Twitter-style social network built using the following technologies: Java 17, Spring Boot, MySQL for data storage, RabbitMQ for asynchronous messaging, Docker for containerization, and OAuth2 for authentication.
 
-## Funcionalidades
-- **Criar Perfil:** Os usuários podem criar perfis personalizados.
-- **Criar Post:** Poste mensagens para compartilhar com outros usuários.
-- **Editar e Deletar:** Capacidade de editar ou excluir posts.
-- **Feed:** Visualize um feed de posts de outros usuários.
+## Features
+- **Create Profile:** Users can create personalized profiles.
+- **Create Post:** Post messages to share with other users.
+- **Edit and Delete:** Ability to edit or delete posts.
+- **Feed:** View a feed of posts from other users.
 
-## Documentação da API
+## API Documentation
 
-A documentação da API está disponível através do Swagger. Você pode explorar a API localmente ou acessar a versão hospedada no Render.com.
+The API documentation is available through Swagger. You can explore the API locally or access the hosted version on Render.com.
 
-### Acesso via Render.com
+### Access via Render.com
 
-Se você não quiser clonar o repositório e prefere acessar a API diretamente no Render.com, siga estas etapas:
+If you don't want to clone the repository and prefer to access the API directly on Render.com, follow these steps:
 
-1. Abra o navegador e acesse [render](https://api-projectx.onrender.com)
+1. Open your browser and go to [render](https://api-projectx.onrender.com).
 
-A interface Swagger fornecerá informações detalhadas sobre os endpoints disponíveis, os parâmetros necessários e exemplos de solicitações e respostas.
+The Swagger interface will provide detailed information about available endpoints, necessary parameters, and examples of requests and responses.
 
-### Acesso Local
+### Local Access
 
-Se você preferir executar a aplicação localmente, siga as etapas abaixo:
+If you prefer to run the application locally, follow the steps below:
 
-1. Certifique-se de que o aplicativo está em execução.
-2. Abra o navegador e acesse http://localhost:8080/swagger-ui.html
+1. Make sure the application is running.
+2. Open your browser and go to http://localhost:8080/swagger-ui.html.
 
-## Uso
-Crie um perfil.
-Faça login via Google e explore as funcionalidades de criar, editar e deletar posts.
-Confira o feed para ver os posts de outros usuários.
+## Usage
+Create a profile.
+Log in via Google and explore the features of creating, editing, and deleting posts.
+Check the feed to see posts from other users.
 
-## Tecnologias Utilizadas
-- **Docker** é uma plataforma de virtualização que permite executar aplicativos em containers isolados.
-- **MySQL** é um sistema de gerenciamento de banco de dados relacional.
-- **Java 17** é a versão mais recente da linguagem de programação Java.
-- **Spring** é um framework de desenvolvimento Java que facilita a construção de aplicações web e de microsserviços.
-- **RabbitMQ** é um servidor de mensageria AMQP.
-- **OAuth2** é um protocolo de autorização que permite que os usuários compartilhem suas credenciais com aplicativos de terceiros.
-- **Swagger** é uma ferramenta que permite documentar APIs REST.
+## Technologies Used
+- **Docker** is a virtualization platform that allows running applications in isolated containers.
+- **MySQL** is a relational database management system.
+- **Java 17** is the latest version of the Java programming language.
+- **Spring** is a Java development framework that facilitates building web applications and microservices.
+- **RabbitMQ** is an AMQP messaging server.
+- **OAuth2** is an authorization protocol that allows users to share their credentials with third-party applications.
+- **Swagger** is a tool that allows documenting REST APIs.
 
-## Instalação e Execução
-1. Clone este repositório.
+## Installation and Execution
+1. Clone this repository.
    ```bash
    git clone https://github.com/euderdesousaa/project-x
-   
-2. Navegue até o diretório do projeto.
-      ```bash
+   ```
+2. Navigate to the project directory.
+   ```bash
    cd project-x
-      
-3. Configure as variáveis de ambiente para MySQL, RabbitMQ e OAuth2.
+   ```
+3. Configure environment variables for MySQL, RabbitMQ, and OAuth2.
 
-5. Execute o aplicativo.
+5. Run the application.
    ```bash
    docker-compose up
+   ```
